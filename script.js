@@ -3,7 +3,7 @@
 		    var countPost = 0;
 		    let messages = $('#spam-message').val().split('|');
 		    let targets = $('#spam-target').val().split(';');
-		    let timer = $('#spam-timer').val();
+			let timer = $('#spam-timer').val()*1000;
 		    targets.forEach(target => {
 		        counter++;
 		        setTimeout(() => {
