@@ -17,7 +17,7 @@
 		                var link = "https://www.facebook.com/" + dataPost.post_id;
 		                $('#logText').append('<span style="color: green;">Posted ' + countPost + ' on <a href="' + link + '" target="_blank">' + dataPost.post_id + '</a></span><br/>');
 		                if (countPost === targets.length) {
-		                    timeOutDone();
+							timeOutDone();
 		                };
 		            }).fail(() => {
 		                countPost++;
